@@ -4,6 +4,7 @@ import glob
 import time
 
 keep = gkeepapi.Keep()
+#Once you have a password account from google you can indicate you email + password below
 success = keep.login('...', '...')
 
 Directory = '/home/BobDylan/Documents/gkeep_to_nextcloud_notes/'
